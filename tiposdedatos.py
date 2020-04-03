@@ -1,7 +1,5 @@
 print('Hola mundo')
 
-#comentarios xd
-
 entero = 12
 flotantes = 2.1212
 strings = 'asdadsads'
@@ -20,14 +18,12 @@ modulo = 10 % 2
 #E mas solo deja concatenar con texto
 #El float es un metodo
 
-print('ingresa los numeros a sumar')
 
 #Codigo para una suma de flotante con fornato a 2 decimales
+print('ingresa los numeros a sumar')
 
 numero_1 = float (input('ingresa el primer valor'))
-
 numero_2 = float (input ('Ingresa el segundo valor'))
-
 total = numero_1 + numero_2
 print('El resultado es: ', '{:0.2f}'.format(total))
 
